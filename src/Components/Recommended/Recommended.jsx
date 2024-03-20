@@ -1,5 +1,5 @@
 import React from 'react'
-import './Recommended'
+import './Recommended.css'
 import thumbnail1 from '../../assets/thumbnail1.png'
 import thumbnail2 from '../../assets/thumbnail2.png'
 import thumbnail3 from '../../assets/thumbnail3.png'
@@ -14,7 +14,65 @@ const Recommended = () => {
             <div className='side-video-list'>
                 <img src={thumbnail1} alt="" />
                 <div className='vid-info'>
-                    <h4>Best channel that help you to be a web developer https://www.youtube.com/watch?v=Zb1zVeXLUf8&t=32s</h4>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail2} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail3} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail4} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail5} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail6} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail7} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
+                </div>
+            </div>
+            <div className='side-video-list'>
+                <img src={thumbnail8} alt="" />
+                <div className='vid-info'>
+                    <h4>Best channel that help you to be a web developer </h4>
+                    <p>GreatStack</p>
+                    <p>199K Views</p>
                 </div>
             </div>
         </div>
